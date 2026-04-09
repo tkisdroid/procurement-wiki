@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+web/wiki-data/
+web/public/search-index.json
+web/public/quiz-data.json
+web/public/source-index.json
+.DS_Store
+*.swp
