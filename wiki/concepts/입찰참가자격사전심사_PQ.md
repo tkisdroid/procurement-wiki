@@ -3,7 +3,7 @@ title: 입찰참가자격 사전심사 (PQ)
 category: concepts
 subject: 공공계약관리
 parent: 공사계약_공사계약
-tags: [PQ, 입찰참가자격사전심사, 사전심사, Prequalification, 공사계약, 매년출제]
+tags: [PQ, 입찰참가자격사전심사, 사전심사, Prequalification, 공사계약, 교재 핵심]
 sources: [공공조달관리사 표준교재 3권]
 created: 2026-04-09
 updated: 2026-04-09
