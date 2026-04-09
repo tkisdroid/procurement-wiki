@@ -105,3 +105,10 @@ importance: high
 ⚠️ 2단계경쟁 **회피 금지**: 분할 납품요구로 기준금액 이하로 만드는 행위 차단 → 30일 이내 합산 검증.
 
 ⚠️ 90% 하한 제한은 **중소기업자 간 경쟁제품**에만 적용된다.
+
+## 교재 이미지
+
+![p198 용역 MAS 계약 업무처리 절차](/procurement-wiki/images/textbook/book3/p198_fig1.png)
+![p198 용역 MAS 구매계약 절차](/procurement-wiki/images/textbook/book3/p198_fig2.jpeg)
+![p209 카탈로그계약 절차](/procurement-wiki/images/textbook/book3/p209_fig1.png)
+![p212 디지털서비스 카탈로그계약 절차](/procurement-wiki/images/textbook/book3/p212_fig1.png)
