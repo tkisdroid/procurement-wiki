@@ -106,7 +106,6 @@ export default function Home() {
               src="/procurement-wiki/images/ad-banner.svg"
               alt="에듀랜드 공공조달관리사 인강"
               className="w-full h-auto object-cover"
-              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
             />
           </a>
         </section>
