@@ -31,6 +31,71 @@ h2 { line-height: 1.35; }
 h3 { line-height: 1.4; }
 h4, h5, h6 { line-height: 1.45; }
 
+/* ===== 시험 핵심 (🎯) — 빨간 강조 박스 ===== */
+.exam-key {
+  background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+  border-left: 4px solid #dc2626;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: #7f1d1d;
+  box-shadow: 0 2px 6px rgba(220, 38, 38, 0.08);
+}
+
+.exam-key-label {
+  display: block;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  color: #dc2626;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.375rem;
+}
+
+.exam-key strong {
+  background: linear-gradient(180deg, transparent 60%, #fecaca 60%);
+  color: #991b1b;
+  padding: 0 2px;
+  font-weight: 700;
+}
+
+.exam-key a {
+  color: #991b1b;
+  text-decoration: underline;
+}
+
+/* ===== 학습 포인트 (📌/💡) — 파란/초록 강조 박스 ===== */
+.learn-point {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border-left: 4px solid #2563eb;
+  padding: 0.875rem 1.125rem;
+  margin: 0.875rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #1e3a8a;
+  box-shadow: 0 1px 3px rgba(37, 99, 235, 0.06);
+}
+
+.learn-point-label {
+  display: block;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #2563eb;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+
+.learn-point strong {
+  background: linear-gradient(180deg, transparent 60%, #bfdbfe 60%);
+  color: #1e40af;
+  padding: 0 2px;
+  font-weight: 700;
+}
+
 /* ===== Trap notes (⚠️) highlighting ===== */
 .trap-note {
   background: linear-gradient(135deg, #fef9ee 0%, #fef3c7 100%);

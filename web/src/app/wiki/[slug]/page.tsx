@@ -147,6 +147,28 @@ function enhanceHtml(html: string): string {
     '</table></div>'
   );
 
+  // Exam-importance highlights — blockquote with 🎯/📌/💡 markers → styled callouts
+  // 🎯 → .exam-key (red "시험 핵심" callout)
+  enhanced = enhanced.replace(
+    /<blockquote>\s*<p>🎯\s*(?:<strong>)?([^<]*?)(?:<\/strong>)?[:：]?\s*([\s\S]*?)<\/p>\s*<\/blockquote>/g,
+    (_, label, body) => `<div class="exam-key"><span class="exam-key-label">🎯 ${label || "시험 핵심"}</span>${body}</div>`
+  );
+
+  // 📌 → .learn-point (blue "학습 포인트" callout)
+  enhanced = enhanced.replace(
+    /<blockquote>\s*<p>📌\s*(?:<strong>)?([^<]*?)(?:<\/strong>)?[:：]?\s*([\s\S]*?)<\/p>\s*<\/blockquote>/g,
+    (_, label, body) => `<div class="learn-point"><span class="learn-point-label">📌 ${label || "학습 포인트"}</span>${body}</div>`
+  );
+
+  // 💡 → .learn-point (same blue callout)
+  enhanced = enhanced.replace(
+    /<blockquote>\s*<p>💡\s*(?:<strong>)?([^<]*?)(?:<\/strong>)?[:：]?\s*([\s\S]*?)<\/p>\s*<\/blockquote>/g,
+    (_, label, body) => `<div class="learn-point"><span class="learn-point-label">💡 ${label || "학습 포인트"}</span>${body}</div>`
+  );
+
+  // Highlight exam-critical numbers/periods: **<number>** inside 시험 핵심/학습 포인트
+  // (handled via CSS on .exam-key strong and .learn-point strong)
+
   return enhanced;
 }
 
